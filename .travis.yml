@@ -1,10 +1,5 @@
 language: java
 jdk:
-- openjdk15
-addons: sonarcloud:
-organization: sara-dacanal 
-token: 240138851fd031ea7af4d9d5d3a6127a71e15ad1
-script: 
-ant build
-sonar-scanner
+  -openjdk15
+script: ant build
 
