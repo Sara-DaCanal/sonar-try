@@ -6,8 +6,7 @@ addons:
   organization: sara-dacanal
   token: 7b0739d7714ed7dd5fca26570862e8690341af15
 script: 
- -ant -buildfile HelloWorld/build.xml
- 
- -sonar-scanner
+ - ant -buildfile HelloWorld/build.xml
+ - sonar-scanner
 
 
